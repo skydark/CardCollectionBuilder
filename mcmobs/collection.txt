@@ -1,0 +1,94 @@
+﻿Id	mcmobs							
+Author	MinecraftWiki	skydarkchen						
+Desc	Card collection of minecraft mobs, data from MinecraftWiki, under CC BY-NC-SA 3.0							
+Dimension	Rarity/5	Faction/4	Category/3	Variant/2				
+ColorFilter	Rarity							
+Color	#EEEEEE	#10C0F0	#A011F1	#F0F010	#F03010			
+								
+en_us	Rarity	Faction	Category	Variant				
+	N	Overworld	Passive	Normal				
+	R	Aquatic	Neutral	Variant				
+	SR	Nether	Hostile					
+	SSR	End						
+	UR							
+								
+zh_cn	稀有	阵营	类别	变种				
+	普通	主世界	被动	普通				
+	稀有	水生	中立	变种				
+	精锐	下界	攻击					
+	超稀有	末地						
+	传奇							
+								
+Id	Rarity	Faction	Category	Variant	Minecraft Mobs	Collect minecraft mob cards!	MC生物图鉴	收集 minecraft 生物卡牌吧！
+bat	N	Overworld	Passive	Normal	Bat	A bat is a flying ambient passive mob that spawns in dark areas underground.	蝙蝠	蝙蝠（Bat）是一种会飞的被动型生物，生成于洞穴中用于渲染气氛。
+chicken	N	Overworld	Passive	Normal	Chicken	Chickens are common passive mobs found in most grassy biomes, and are the main source of chicken, feathers and eggs.	鸡	鸡（Chicken）是一种会下蛋的被动型生物。
+cod	N	Aquatic	Passive	Normal	Cod	Cod are common passive aquatic mobs found in oceans.	鳕鱼	鳕鱼（Cod） 是海洋中常见的被动型生物。
+cow	N	Overworld	Passive	Normal	Cow	A cow is a common passive mob and a source of leather, beef and milk. Cows are found in most grassy biomes.	牛	牛（Cow）是主世界中一种常见的被动型生物。它们是皮革、牛肉和牛奶的来源。
+donkey	N	Overworld	Passive	Variant	Donkey	Donkeys are variants of horses that, when tamed, can be ridden and equipped with chests.	驴	驴（Donkey）是一种被驯服后可以骑乘并驮货物的生物。
+horse	N	Overworld	Passive	Normal	Horse	Horses are passive mobs that can be ridden when tamed.	马	马（Horse）是一种可驯服生物，被驯服后可以骑行。
+pig	N	Overworld	Passive	Normal	Pig	A pig is a common passive mob found in most grassy biomes. Pigs are a source of porkchops and can be equipped with a saddle to be driven.	猪	猪（Pig）是生成于主世界中的常见被动型生物。
+piglin_baby	N	Nether	Passive	Variant	Piglin (baby)	A piglin is a neutral mob found in the Nether. They attack players on sight unless the player is equipped with at least one piece of golden armor. Players can use gold ingots to barter with them for various items.	幼年猪灵	每只猪灵都有20%的几率生成为幼年个体。幼年猪灵永远不会成长为成年个体。
+pufferfish	N	Aquatic	Passive	Normal	Pufferfish	Pufferfish are passive mobs found in oceans. They defend themselves by dealing damage and inflicting poison to nearby players and certain mobs.	河豚	河豚（Pufferfish）是在温水海洋、暖水海洋中生成的防御型被动生物。
+rabbit	N	Overworld	Passive	Normal	Rabbit	A rabbit is an uncommon passive mob and is a source of rabbit's foot, rabbit hide and raw rabbit.	兔子	兔子（Rabbit）是一种罕见的被动型生物。它们是兔子皮、兔子脚和生兔肉的来源。
+salmon	N	Aquatic	Passive	Normal	Salmon	Salmon are common passive aquatic mobs found in oceans and rivers. They are a reliable and nutritious source of early-game food when cooked.	鲑鱼	鲑鱼（Salmon）是一种在海洋和河流中常见的被动型生物。
+sheep	N	Overworld	Passive	Normal	Sheep	Sheep are common passive mobs that supply wool and mutton and are found in many of the grassy biomes.	绵羊	绵羊（Sheep）是供给羊毛和羊肉的被动型生物。
+squid	N	Aquatic	Passive	Normal	Squid	Squid are common passive aquatic mobs that spawn in rivers and oceans.	鱿鱼	鱿鱼（Squid）是生成在水中的一种被动型生物。
+tropical_fish	N	Aquatic	Passive	Normal	Tropical Fish	Tropical Fish are common passive mobs found in oceans. There are 2,700 naturally occurring variants. Using commands up to 3,584 visually distinctive variants can be spawned.	热带鱼	热带鱼（Tropical Fish） 是能在海洋中发现的常见的被动型生物。它有3584个变种。
+piglin	N	Nether	Neutral	Normal	Piglin	A piglin is a neutral mob found in the Nether. They attack players on sight unless the player is equipped with at least one piece of golden armor. Players can use gold ingots to barter with them for various items.	猪灵	猪灵（Piglin）是一种自然生成于下界的中立型生物。
+spider	N	Overworld	Neutral	Normal	Spider	A spider is a common neutral mob that has the unique ability to climb walls.	蜘蛛	蜘蛛（Spider）是一种拥有爬墙能力的常见中立型生物。
+zombified_piglin	N	Nether	Neutral	Variant	Zombified Piglin	Zombified piglins are undead variants of piglins and piglin brutes that inhabit the Nether.	僵尸猪灵	僵尸猪灵（Zombified Piglin）是生活在下界的中立型亡灵生物。
+creeper	N	Overworld	Hostile	Normal	Creeper	A creeper is a common hostile mob that silently approaches players and explodes.	苦力怕	苦力怕（Creeper）是常见的敌对生物，它们悄无声息地接近玩家，当距离目标3格内就会开始爆炸。由于它们独特的外表和极高的杀伤力以及破坏地形和建筑物的能力，苦力怕已经成为了Minecraft的象征标志之一，无论是在玩家或非玩家中都很著名。
+drowned	N	Aquatic	Hostile	Variant	Drowned	Drowned are common underwater zombie variants that spawn in oceans and rivers, or when zombies drown. They are the only source of tridents.	溺尸	溺尸（Drowned）是在所有海洋与河流生物群系生成的僵尸水下变种，也能在僵尸溺水后生成。它们是目前三叉戟唯一的来源。
+endermite	N	End	Hostile	Normal	Endermite	An endermite is the smallest hostile mob. An endermite emits purple 'portal' particles, may spawn when a player throws an ender pearl and is useful for endermite lure traps.	末影螨	末影螨（Endermite）是Minecraft中最小的敌对生物。
+ghast	N	Nether	Hostile	Normal	Ghast	Ghasts are large white floating ghost-like hostile mobs that live in the Nether which shoot explosive fireballs at the player.	恶魂	恶魂（Ghast）是下界一种会向玩家发射火球的巨大浮空生物。它是游戏中自然生成的第二大生物，仅次于末影龙。
+guardian	N	Aquatic	Hostile	Normal	Guardian	A guardian is a pufferfish-like hostile mob that spawn in and around ocean monuments.	守卫者	守卫者（Guardian）是一种生成于海底神殿的攻击型生物。
+hoglin	N	Nether	Hostile	Normal	Hoglin	A hoglin is a breedable hostile mob found in the Nether, and are a source of porkchops and leather.	疣猪兽	疣猪兽（Hoglin）是一种生成在绯红森林的攻击型生物。它们是目前唯一可繁殖的攻击型生物。
+husk	N	Overworld	Hostile	Variant	Husk	A husk is a variant of zombie that spawns in deserts. Unlike zombies, husks do not burn in sunlight.	尸壳	尸壳（Husk）是生成在沙漠中的僵尸变种。
+magma_cube	N	Nether	Hostile	Normal	Magma Cube	A magma cube is a hostile mob found in the Nether. A magma cube behaves like a slime, but is stronger and more dangerous.	岩浆怪	岩浆怪（Magma Cube）是一种仅在下界生成的攻击型生物，有红黑色混杂的皮肤和橙黄色的眼睛。它们可当作史莱姆在下界的变种，有着与之类似的行为。
+silverfish	N	Overworld	Hostile	Normal	Silverfish	Silverfish are small hostile mobs found hiding in stone-like blocks in mountains, strongholds, igloo basements and woodland mansions.	蠹虫	蠹虫（Silverfish）是一种小型的似虫的攻击型生物。
+skeleton	N	Overworld	Hostile	Normal	Skeleton	Skeletons are common undead hostile mobs equipped with bows.	骷髅	骷髅（Skeleton）是一种装备了弓的常见亡灵生物。
+stray	N	Overworld	Hostile	Variant	Stray	Strays are variants of skeletons that spawn only in frozen, ice, or snowy biomes.	流浪者	流浪者（Stray）是一个只生成在有雪的生物群系里的骷髅变种。
+witch	N	Overworld	Hostile	Normal	Witch	The witch is an uncommon hostile mob that uses harmful splash potions as ranged weapons and beneficial positive potions on itself.	女巫	女巫（Witch）是一种将喷溅药水作为远程武器的敌对生物，它们也会饮用有增益效果的药水来自我保护。
+zoglin	N	Nether	Hostile	Variant	Zoglin	Zoglins are undead hostile mobs created when a hoglin enters the Overworld or End.	僵尸疣猪兽	僵尸疣猪兽（Zoglin）是疣猪兽在被带到主世界或末地后转化成的攻击型亡灵生物。
+zombie	N	Overworld	Hostile	Normal	Zombie	Zombies are common undead hostile mobs that deal melee damage and attack in groups.	僵尸	僵尸（Zombie）是一种常见的攻击型亡灵生物，具有多个变种。
+polar_bear_baby	N	Overworld	Passive	Variant	Polar Bear (baby)	Polar bears are neutral mobs that live in icy biomes.	北极熊幼崽	北极熊会在积雪的冻原、雪山和冰刺平原中最多以4只为一组生成。如果一组同时生成了不少于2只北极熊，则其中总会仅有一只是成年个体，其余是幼崽。
+turtle	N	Aquatic	Passive	Normal	Turtle	A turtle is a common passive mob found in beach biomes.	海龟	海龟（Turtle）是一种被动型海洋生物，在水陆上均可移动且不会窒息。
+polar_bear	N	Overworld	Neutral	Normal	Polar Bear	Polar bears are neutral mobs that live in icy biomes.	北极熊	北极熊（Polar Bear）是一种中立型生物。
+cat	R	Overworld	Passive	Normal	Cat	Cats are tameable passive mobs that are found in villages and swamp huts.	猫	猫（Cat）是在村庄中生成的、可驯服的被动型生物。
+fox	R	Overworld	Passive	Normal	Fox	Foxes are nocturnal passive mobs that spawn commonly in taiga, giant tree taiga, and snowy taiga biomes.	狐狸	狐狸（Fox）是一种通常生成在针叶林、巨型针叶林和积雪的针叶林生物群系的被动型夜间生物。在夜间，狐狸有时会到村庄内活动。
+mooshroom	R	Overworld	Passive	Variant	Mooshroom	Mooshrooms are mushroom-covered variants of cows exclusive to the rare mushroom fields biome.	哞菇	哞菇（Mooshroom）是牛的独特变种。
+mule	R	Overworld	Passive	Variant	Mule	Mules are infertile offspring of horses and donkeys that, when tamed, can be ridden and equipped with chests.	骡	骡（Mule）是一种可骑乘的可驯服生物。
+ocelot	R	Overworld	Passive	Normal	Ocelot	Ocelots are rare passive mobs found in jungles.	豹猫	豹猫（Ocelot）是一种丛林中罕见的被动型生物。
+parrot	R	Overworld	Passive	Normal	Parrot	Parrots are rare tameable mobs found in jungles. Parrots can imitate sounds of nearby hostile mobs and can perch on the player's shoulders.	鹦鹉	鹦鹉（Parrot）是一种生成于丛林的、色彩鲜艳的可驯服鸟类，可以发出附近敌对生物的音效，驯服之后可以站在玩家的肩上。
+snow_golem	R	Overworld	Passive	Normal	Snow Golem	A snow golem is a snowman-like utility mob that helps defend against hostile and neutral mobs.	雪傀儡	雪傀儡（Snow Golem）是一种可以帮助抵御敌对以及中立生物的效用型生物。
+strider	R	Nether	Passive	Normal	Strider	Striders are passive mobs native to the Nether. They can walk/stride on lava and be saddled by the player.	炽足兽	炽足兽（Strider）是下界内一种可骑乘的被动型生物，能在熔岩上行走而不受伤害。
+villager	R	Overworld	Passive	Normal	Villager	Villagers are passive mobs that inhabit villages, work at their professions, breed, and interact.	村民	村民（Villager）是一种生活在村庄中的被动型生物，它们会依自己的职业进行工作，能够繁殖和与玩家交易。它们的衣服因其职业和村庄所在生物群系而异。
+wandering_trader	R	Overworld	Passive	Normal	Wandering Trader	The wandering trader is a passive mob that randomly spawns near the player. It can trade, making natural items more available, less dangerous to obtain, and in some cases, renewable.	流浪商人	流浪商人（Wandering Trader）是一种可以在世界各处生成的，类似于村民的被动型生物。
+bee	R	Overworld	Neutral	Normal	Bee	Bees are flying neutral mobs that live in bee nests and beehives. If provoked, bees attack in a swarm to "sting" the player and inflict poison.	蜜蜂	蜜蜂（Bee）是居住在蜂巢或蜂箱的中立型生物，会在被激怒时成群结队地蜇玩家，使其中毒。
+cave_spider	R	Overworld	Neutral	Variant	Cave Spider	A cave spider is a small venomous variant of the spider. They spawn and live in mineshafts.	洞穴蜘蛛	洞穴蜘蛛（Cave Spider）是一种能够造成玩家中毒的中立型生物。
+enderman	R	End	Neutral	Normal	Enderman	Endermen are tall neutral mobs found in all three dimensions, which have the ability to teleport and pick up blocks.	末影人	末影人（Enderman）是一种来自末路之地、会传送的高大黑色中立型生物。
+iron_golem	R	Overworld	Neutral	Normal	Iron Golem	An iron golem is a large strong neutral utility mob that defends players and villagers.	铁傀儡	铁傀儡（Iron Golem）是高大强壮的效用型生物，用于保护玩家和村民。
+llama	R	Overworld	Neutral	Normal	Llama	Llamas are neutral mobs that can be tamed and used to transport large shipments of items.	羊驼	羊驼（Llama）是一种可驯服的中立型生物，能够运输大量的物品。
+wolf	R	Overworld	Neutral	Normal	Wolf	Wolves are neutral mobs that can be tamed.	狼	狼（Wolf）是一种能够被玩家驯服的中立型生物。
+blaze	R	Nether	Hostile	Normal	Blaze	Blazes are floating hostile mobs found in nether fortresses, and are the only source of blaze rods.	烈焰人	烈焰人（Blaze）是生成在下界的飞行攻击型生物。
+phantom	R	Overworld	Hostile	Normal	Phantom	Phantoms are flying undead hostile mobs that spawn when the player has not slept or died for three or more in-game days.	幻翼	幻翼（Phantom）是一种攻击型亡灵生物，会生成于超过3个游戏日没有睡觉的玩家的上空。
+pillager	R	Overworld	Hostile	Normal	Pillager	Pillagers are illagers armed with crossbows that patrol the Overworld, guard their outposts, and participate in raids, sometimes spawning on ravagers.	掠夺者	掠夺者（Pillager）是一种装备弩的灾厄村民，自然生成于灾厄巡逻队和掠夺者前哨站，也生成于袭击中。
+ravager	R	Overworld	Hostile	Normal	Ravager	Ravagers are large hostile mobs that spawn in raids and attack players, villagers, wandering traders and iron golems.	劫掠兽	劫掠兽（Ravager）是在袭击中生成的巨型敌对生物，在基岩版中是灾厄村民的变种之一。
+shulker	R	End	Hostile	Normal	Shulker	Shulkers are box-shaped hostile mobs found in end cities. They hide in their shell to blend in with surrounding purpur blocks and guard the city's various treasures.	潜影贝	潜影贝（Shulker）是在末地城和末地船自然生成的敌对生物。它们会将自己隐藏在贝壳里，和末地城的紫珀块混在一起。
+slime	R	Overworld	Hostile	Normal	Slime	Slimes are bouncy, cube-shaped hostile mobs that spawn deep underground in particular chunks known as slime chunks, or at night in swamp biomes.	史莱姆	史莱姆（Slime）是一种生成在沼泽生物群系的攻击型生物，偶尔也会在地下生成。
+wither_skeleton	R	Nether	Hostile	Variant	Wither Skeleton	Wither skeletons are tall variants of skeletons equipped with stone swords found in nether fortresses, which inflict the fatal Wither effect.	凋灵骷髅	凋灵骷髅（Wither Skeleton）为天然生成于下界要塞的危险的骷髅变种，在生成时就持有石剑。
+zombie_villager	R	Overworld	Hostile	Variant	Zombie Villager	Zombie villagers are variants of zombies that can be cured into normal villagers using golden apples while they are under the effect of Weakness.	僵尸村民	僵尸村民（Zombie villagers） 是僵尸的一个变种，可以在其被施加虚弱效果后对其使用一个金苹果治愈成村民。
+dolphin	SR	Aquatic	Neutral	Normal	Dolphin	Dolphins are neutral mobs that live in non-frozen oceans, which grant a speed boost to players that swim near them.	海豚	海豚（Dolphin）是生活在除冻洋以外的海洋里的中立生物。
+skeleton_horse	SR	Overworld	Passive	Variant	Skeleton Horse	Skeleton horses are undead variants of horses that rarely spawn when lightning strikes.	骷髅马	骷髅马（Skeleton Horse）是马的亡灵变种。
+panda	SR	Overworld	Neutral	Normal	Panda	A panda is a rare neutral mob that resides in jungles. Certain aspects of a panda's behavior and appearance vary depending on its personality.	熊猫	熊猫（Panda）是一种生成在竹林的中立型生物。
+chicken_jockey	SR	Overworld	Hostile	Variant	Chicken Jockey	Chicken jockeys are the rare appearance of a baby zombie, baby zombified piglin, baby zombie villager, baby husk, or baby drowned riding a chicken.	鸡骑士	鸡骑士（Chicken Jockey）是幼年僵尸、幼年僵尸村民、幼年尸壳、幼年僵尸猪灵或幼年溺尸骑着鸡的罕见组合。
+spider_jockey	SR	Overworld	Hostile	Variant	Spider Jockey	Spider jockeys are the rare appearance of a spider being ridden by a skeleton.	蜘蛛骑士	蜘蛛骑士（Spider Jockey）是一种罕见的由骷髅、流浪者或凋灵骷髅骑在蜘蛛或洞穴蜘蛛身上形成的生物。
+vex	SR	Overworld	Hostile	Normal	Vex	Vexes are tiny flying hostile mobs summoned in small groups of three by the spell-casting evoker.	恼鬼	恼鬼（Vex）是一种飞行的攻击型生物，由唤魔者在战斗时群体式地召唤出来。
+vindicator	SR	Overworld	Hostile	Normal	Vindicator	A vindicator is an illager equipped with an iron axe. Vindicators appear in woodland mansions and participate in raids.	卫道士	卫道士（Vindicator）是一种使用铁斧进行攻击的灾厄村民。
+piglin_brute	SR	Nether	Hostile	Variant	Piglin Brute	A piglin brute is a hostile and stronger variant of piglins that appears in all types of bastion remnants.	猪灵蛮兵	猪灵蛮兵（Piglin Brute）是守卫堡垒遗迹的攻击型猪灵变种。
+elder_guardian	SSR	Aquatic	Hostile	Variant	Elder Guardian	An elder guardian is a stronger, larger variant of the guardian, and it can inflict Mining Fatigue. It is the largest aquatic mob in Minecraft.	远古守卫者	远古守卫者（Elder Guardian）是一种只生成在海底神殿的攻击型生物。它是守卫者的更强变种。
+evoker	SSR	Overworld	Hostile	Normal	Evoker	An evoker is a spell-casting illager found in woodland mansions and raids, and is the only source of the totem of undying.	唤魔者	唤魔者（Evoker）是一种会施展法术的攻击型生物，也是一种灾厄村民。它们是不死图腾的唯一来源。
+ravager_jockey	SSR	Overworld	Hostile	Variant	Ravager Jockey	Ravager jockeys are formed when a Pillager, Vindicator or an Evoker rides on a Ravager.	劫掠兽骑手	一次袭击中可生成多达7只劫掠兽。非骑乘状态的劫掠兽生成在第3波，被掠夺者骑乘的生成在第5波和第8波，被卫道士骑乘的生成在第7波和第8波，被唤魔者骑乘的也生成在第7波和第8波。
+skeleton_horseman	SSR	Overworld	Hostile	Variant	Skeleton Horseman	When a player comes within 10 blocks of the skeleton trap horse, lightning strikes it. When struck, the skeleton trap horse transforms into a skeleton horseman: a skeleton riding a skeleton horse.	骷髅骑手	当玩家与骷髅陷阱马的距离小于等于10格时，闪电会击中这只马。被闪电击中后，骷髅陷阱马会变成骷髅骑手（骑着骷髅马的骷髅），并且在它的附近会额外生成三个骷髅骑手。
+ender_dragon	UR	End	Hostile	Normal	Ender Dragon	The Ender dragon is a gigantic flying hostile boss mob found when first entering the End. She is the largest naturally spawning mob in the game and is widely acknowledged as the final boss of Minecraft.	末影龙	末影龙（Ender Dragon）是玩家初次进入末路之地时出现的危险的、飞行的Boss生物。
+wither	UR	Nether	Hostile	Normal	Wither	The wither is an undead hostile boss mob that floats and shoots explosive skulls at players and mobs, that can only be purposely constructed by the player.	凋灵	凋灵（Wither）是一种具有飞行能力、有三个头的Boss生物。
