@@ -42,6 +42,7 @@
         public class Card
         {
             public string Id { get; set; }
+            public int Weight { get; set; } = 1;
             public Dictionary<string, int> Dimensions { get; set; } = new Dictionary<string, int>();
             public Dictionary<string, CardLang> CardLangs { get; set; }
         }
@@ -304,10 +305,10 @@
 
             var headerCols = sr.CurrentLine.Split('\t').Select(s => s.Trim()).ToArray();
 
-            var minColumns = 1 + this.DimensionSizes.Count + this.CollectionLangs.Count * 2;
+            var minColumns = 2 + this.DimensionSizes.Count + this.CollectionLangs.Count * 2;
             if (headerCols.Length < minColumns)
             {
-                Utils.Logger?.Error("Not enough columns to define all dimensions and langs: {sr}", sr);
+                Utils.Logger?.Error("Not enough columns to define all dimensions, weights and langs: {sr}", sr);
                 return false;
             }
 
@@ -331,7 +332,7 @@
             var langStartCols = new List<int>();
             for (int langIdx = 0; langIdx < this.CollectionLangs.Count; langIdx++)
             {
-                int colIdx = this.DimensionSizes.Count + 1 + langIdx * 2;
+                int colIdx = this.DimensionSizes.Count + 2 + langIdx * 2;
                 langStartCols.Add(colIdx);
 
                 var collectionLang = this.CollectionLangs[langIdx];
@@ -368,6 +369,7 @@
                 var card = new Card
                 {
                     Id = cardId,
+                    Weight = 1,
                     Dimensions = new Dictionary<string, int>(),
                     CardLangs = new Dictionary<string, CardLang>(),
                 };
@@ -388,6 +390,13 @@
                     }
                     card.Dimensions[dim] = val + 1;
                 }
+                int weight = int.TryParse(parts[this.DimensionSizes.Count + 1], out weight) ? weight : -1;
+                if (weight < 0)
+                {
+                    Utils.Logger?.Error("Invalid weight value {valStr}: {sr}", parts[this.DimensionSizes.Count + 1], sr);
+                    return false;
+                }
+                card.Weight = weight;
                 for (int langIdx = 0; langIdx < langStartCols.Count; langIdx++)
                 {
                     var langStartCol = langStartCols[langIdx];
@@ -594,6 +603,7 @@
                     //name = card.Name,
                     //desc = card.Desc,
                     dimensions = card.Dimensions.ToDictionary(p => p.Key.ToLowerInvariant(), p => p.Value),
+                    weight = card.Weight,
                 }));
             }
             return true;
